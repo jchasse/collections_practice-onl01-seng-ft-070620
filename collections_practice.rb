@@ -25,3 +25,24 @@ end
 def reverse_array(array)
   array.clone.reverse
 end
+
+
+def kesha_maker(array)
+  array.each do |name|
+    new_array << name.sub$
+  end
+  return new_array
+end
+
+
+
+
+  i = 0
+
+  while i < array.length
+    yield array[i]
+    i += 1
+  end
+  array
+
+end
