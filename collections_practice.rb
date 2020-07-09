@@ -50,3 +50,14 @@ def sum_array(array)
   end
   return sum
 end
+
+
+def add_s(array)
+  array.each do |item|
+    if item == "feet"
+    else
+      item << "s"
+  end
+
+
+end
