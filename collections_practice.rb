@@ -38,6 +38,6 @@ end
 
 def find_a(array)
   array.select do |item|
-    item begins with "a"
+    item.start_with? "a"
   end
 end
