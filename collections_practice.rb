@@ -36,7 +36,7 @@ def kesha_maker(array)
 end
 
 
-def finda(array)
+def find_a(array)
   array.select do |item|
     item begins with "a"
   end
