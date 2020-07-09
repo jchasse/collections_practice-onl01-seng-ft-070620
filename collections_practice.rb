@@ -40,5 +40,4 @@ def finda(array)
   array.select do |item|
     item begins with "a"
   end
-
 end
