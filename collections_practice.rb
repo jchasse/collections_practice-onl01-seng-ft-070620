@@ -30,7 +30,7 @@ end
 def kesha_maker(array)
   new_array = []
   array.each do |name|
-    new_array << name.insert(3,"^$")
+    new_array << name[0..1] + "$" + name[3..-1]
   end
   return new_array
 end
